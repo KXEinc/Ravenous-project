@@ -1,7 +1,5 @@
-import React from 'react';
-import './Business.css';
-
-
+import React from "react";
+import "./Business.css";
 
 class Business extends React.Component {
   render() {
@@ -21,7 +19,7 @@ class Business extends React.Component {
           </div>
           <div className="Business-reviews">
             <h3>{this.props.business.category}</h3>
-            <h3 className="rating">{this.props.business.rating} stars}</h3>
+            <h3 className="rating">{this.props.business.rating} stars</h3>
           </div>
         </div>
       </div>
